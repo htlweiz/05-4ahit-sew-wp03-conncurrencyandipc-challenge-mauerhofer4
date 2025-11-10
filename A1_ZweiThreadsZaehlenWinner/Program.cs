@@ -24,7 +24,7 @@ class Program
     
     private static void CountUpThreadA()
     {
-        for(int i = 0; 1 <= 0; i++)
+        for(int i = 0; 1 <= 100; i++)
         {
             Console.WriteLine($"Thread A: {i}")
             Thread.Sleep(100);
